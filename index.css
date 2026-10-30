@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+}
+
+a:hover {
+  color: #68006d;
+}
+
+nav{
+    background-color:rgb(214, 121, 214);
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover::after{
+    color: #ee6df5;
+    content: "🌆";
+}
+
+body > header{
+    background-color: plum;
+    color: white;
+    padding-top: 40px;
+}
+
+header h1{
+    text-align: center;
+}
+
+header p{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+main {
+    display:flex;
+    margin: 40px;
+    gap: 20px;
+}
+
+#content{
+    /* flex 3 artinya pembagian luasnya, 75% */
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#content article{
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#content h2{
+    color: #68006d;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+#content img{
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin: 10px 0 15px 0;
+}
+
+#content p{
+    line-height: 1.6;
+    margin-bottom: 12px;
+    text-align: justify;
+}
+
+#content section{
+    margin-top: 20px;
+}
+
+#content section h3{
+    margin-bottom: 8px;
+    color: bisque;
+}
+
+aside{
+    flex: 1;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+aside header{
+    background-color: transparent;
+    color: #333;
+    padding: 0;
+}
+
+aside header h2{
+    color: #68006d;
+    font-size: 1.4rem;
+}
+
+aside header p{
+    color: #666;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+aside figure img{
+    width: 120px;
+    height: auto;
+}
+
+aside figcaption{
+    font-size: 15px;
+    color: #777;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+aside section h3{
+    font-size: 1rem;
+    color: #470054;
+    text-align: left;
+    margin-bottom: 1opx;
+}
+
+aside table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 15px;
+}
+
+aside th{
+    padding: 6px 0;
+    color: #333;
+    width: 45%;
+}
+
+aside td{
+    padding: 6px 0;
+    color: #555;
+}
+
+footer{
+    background-color: rgb(214, 121, 214);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
